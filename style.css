@@ -1,0 +1,112 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(160deg, #7c3aed 0%, #06b6d4 100%);
+    color:#1e293b;
+}
+.cartao {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 24px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
+.avatar {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a78bfa, #22d3ee);
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border: 4px solid #fff;
+    box-shadow: 0 6px 18px rgba(124, 58, 237, 0.35);
+}
+
+.nome {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.arroba {
+    color: #7c3aed;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.bio {
+    font-size: 0.9rem;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 1.3rem;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.rede{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: transform 0.15s, background-color 0.15s;
+}
+
+.rede:hover{
+    transform: translate(-3px);
+    background-color: #e2e8f0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.link{
+    display: block;
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 0.9rem 1rem;
+    font-weight: 600;
+    color: #080d14;
+    text-decoration: none;
+    transition: transform 0.15s, background-color 0.15s;
+}
+
+.link:hover{
+    transform: scale(1.03);
+    background-color: #7c3aed;
+}
+
+.link.destaque{
+    background: linear-gradient(90deg, #7c3aed, #db2777);
+    color: #fff;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 1.5rem;
+}
